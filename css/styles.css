@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --blue: #2196f3;
@@ -19,8 +20,8 @@ body {
   font-style: normal;
   width: 1600px;
 }
-.wrapper {
-  max-width: 1385px;
+.container {
+  max-width: 1200px;
   margin: 0 auto;
   height: 80px;
 }
@@ -58,6 +59,7 @@ body {
   text-decoration: none;
   padding: 0px;
   display: inline;
+  
 }
 .nav-buttons-list a {
   margin: 46px;
@@ -94,12 +96,12 @@ h1 {
   margin-bottom: 94px;
 }
 .main-buttons {
-  display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
-  position: absolute;
+  /* position: absolute; */
   display: inline-flex;
   margin-left: 40%;
+  margin-top: 174px;
+  margin-bottom: 50px;
 }
 button {
   background: var(--btn-color);
@@ -166,11 +168,11 @@ button:hover {
 }
 .images-portfolio {
   list-style-type: none;
-  display: inline-flex;
+  display: flex;
   width: 1170px;
   height: 1360px;
-  top: 174px;
-  left: 215px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .images-borders {
   background: var(--white);
@@ -204,8 +206,7 @@ button:hover {
 }
 .our-team {
   height: 648px;
-  top: 1449px;
-  background-color: var(--btn-color);
+  background-color: var(--btn-color); 
 }
 
 .team {
@@ -213,9 +214,9 @@ button:hover {
   display: flex;
   margin-left: 215px;
   margin-right: 215px;
-  /* margin-bottom: 94px; */
-  margin-top: 186px;
   justify-content: center;
+  margin-bottom: 94px;
+
 }
 .team li {
   margin: 30px;
@@ -251,8 +252,7 @@ button:hover {
   height: 75px;
 }
 .content-section {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-bottom: 94px;
 }
 h2 {
   /* font-family: "Roboto"; */
@@ -263,6 +263,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121; 
+  margin-bottom: 50px;
 }
 .lorem-head {
   /* font-family: "Roboto"; */
@@ -307,14 +308,13 @@ h2 {
   color: var(--bckgd-pic-color);
 }
 .tel {
-  /* font-family: "Roboto";
-  font-style: normal; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--bckgd-pic-color);
   text-decoration: none;
+  margin-bottom: 60px;
 }
 .coordinates {
   /* font-family: "Roboto";
@@ -326,9 +326,13 @@ h2 {
   color: var(--white);
 }
 .footer {
-  font-style: normal;
   background: var(--ftr-bckgd-color);
+  height: 252px;
+}
+.footer-elements {
+  font-style: normal;
   list-style-type: none;
+  text-align: left;
 }
 .logo-studio-footer {
   color: var(--white);
@@ -373,4 +377,10 @@ h2 {
 }
 .mail-tel a {
   margin: 50px;
+}
+.logo-footer {
+  margin-bottom: 20px;
+}
+.adress-footer {
+  margin-bottom: 9px;
 }
