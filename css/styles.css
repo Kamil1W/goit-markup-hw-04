@@ -55,8 +55,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .nav-buttons {
   font-weight: 500;
@@ -157,7 +157,6 @@ button:hover {
   align-items: center;
   left: 700px;
   top: 430px;
-  margin-bottom: px;
 }
 .order-service {
   color: var(--white);
@@ -206,22 +205,19 @@ button:hover {
   color: var(--bckgd-pic-color);
   text-align: left;
 }
-.our-team {
+.our-teammates {
   background-color: var(--btn-color); 
-}
-.our-team-container {
-  margin-top: 94px;
+  padding: 94px;
 }
 .team {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  margin-top: 188px;
   align-content: center;
 }
 .team-borders {
   background: var(--white);
-  width: 270px;
+  margin-top: 50px;
 }
 .what-we-do {
   display: flex;
@@ -249,7 +245,6 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121; 
-  margin-bottom: 50px;
   
 }
 .lorem-head {
@@ -299,10 +294,11 @@ h2 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white);
+  margin-bottom: 9px;
 }
 .footer {
   background: var(--ftr-bckgd-color);
-  height: 252px;
+  padding: 60px;
 }
 .footer-elements {
   font-style: normal;
@@ -318,6 +314,7 @@ h2 {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 .tel-main {
   font-size: 14px;
@@ -342,9 +339,6 @@ h2 {
 
 .tel:hover {
   color: var(--blue);
-}
-.mail-tel a {
-  margin-right: ;
 }
 .mail-tel {
   margin-left: 371px;
