@@ -14,6 +14,9 @@
   --bckgd-pic-color: #757575;
   --ftr-bckgd-color: #2f303a;
 }
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background-color: var(--white);
@@ -101,6 +104,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--blue);
 }
+.nav-buttons-a1:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--blue);
+}
+.nav-buttons-a2:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--blue);
+}
+
 h1 {
   width: 696px;
   height: 120px;
@@ -187,8 +205,14 @@ button:hover {
 }
 .images-borders {
   background: var(--white);
-  border: 1px solid var(--light-grey);
   flex-basis: calc((100% - 30px ) / 9 );
+}
+.undr-img-borders {
+  border-left: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  border-right: 1px solid var(--light-grey);
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .img-title {
   font-weight: 700;
@@ -197,6 +221,8 @@ button:hover {
   letter-spacing: 0.06em;
   color: var(--dark-grey);
   display: flex;
+  padding-top: 20px;
+  margin-bottom: 4px;
 }
 .img-profession {
   font-size: 16px;
@@ -204,6 +230,7 @@ button:hover {
   letter-spacing: 0.03em;
   color: var(--bckgd-pic-color);
   text-align: left;
+  padding-bottom: 20px;
 }
 .our-teammates {
   background-color: var(--btn-color); 
@@ -218,6 +245,8 @@ button:hover {
 .team-borders {
   background: var(--white);
   margin-top: 50px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);;
 }
 .what-we-do {
   display: flex;
@@ -271,6 +300,7 @@ h2 {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 .mail {
   font-weight: 500;
@@ -314,6 +344,8 @@ h2 {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+.mail-box {
   margin-bottom: 9px;
 }
 .tel-main {
